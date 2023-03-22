@@ -1,0 +1,20 @@
+.App{
+  background: rgb(70, 106, 55);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.container{
+  width:800px;
+  height:800px;
+  margin-top:50px;
+}
+.color-black{
+  color:black;
+}
+.loading{
+  width: 4rem; 
+  height: 4rem;
+}
