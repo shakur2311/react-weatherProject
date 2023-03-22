@@ -9,7 +9,7 @@ function App() {
 
   const callWeatherApi = async (cityName)=>{
     try {
-      const request = await fetch(`http://api.weatherapi.com/v1/current.json?key=0482364b292f473e8f7213842231702&&q=${cityName}`)
+      const request = await fetch(`https://api.weatherapi.com/v1/current.json?key=0482364b292f473e8f7213842231702&&q=${cityName}`)
       const response = await request.json();
       setIsLoading(false);
       setWeather(response);
